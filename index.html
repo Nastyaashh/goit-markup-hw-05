@@ -48,7 +48,7 @@
         <section class="hero-section">
             <div class="container hero-container">
             <h1 class="hero-title">Effective Solutions for Your Business</h1>
-            <button type="button" class="hero-button">Order Service</button>
+            <button type="button" class="hero-button" data-modal-open>Order Service</button>
         </div>
         </section>
         
@@ -376,6 +376,7 @@
     <!-- Modal -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
+            <button class="modal-close" type="button" data-modal-close>X</button>
         <form class="form" name="clients-info" autocomplete="off">
         <label for="name-info" class="">
         Name
@@ -394,9 +395,11 @@
         
                 <textarea name="comments" id="" rows="10" placeholder="Text input">Comment</textarea>
         
-        <button class="hero-button" type="submit">Send</button>
+        <button class="modal-button hero-button" type="submit">Send</button>
         </form>
         </div>
             </div>
+
+            <script src="./js/modal.js"></script>
 </body>
 </html>
