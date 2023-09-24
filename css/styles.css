@@ -504,6 +504,9 @@ padding-left: 102px;
  
 
 .footer-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 24px;
 }
 
@@ -524,7 +527,7 @@ padding-left: 102px;
     letter-spacing: 0.04em;
     padding-left: 16px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    
+
 }
 
 
@@ -544,9 +547,6 @@ padding-left: 102px;
     margin-left: 16px;
 }
 
-.modal-footer {
-    display: flex;
-}
 
 /* END Footer */
 
