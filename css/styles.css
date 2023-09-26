@@ -515,10 +515,8 @@ padding-left: 102px;
     color: var(--c-hero-light);
     border: 1px solid var(--c-hero-light);
     border-radius: 4px;
-    width: 264px;
-    width: 100%;    
+    width: 264px;  
     height: 40px;
-    height: 100%;
     margin-left: 80px;
     align-items: center;
     font-family: Roboto;
@@ -530,6 +528,9 @@ padding-left: 102px;
 
 }
 
+.footer-label::placeholder {
+    color: var(--c-hero-light);
+}
 
 .footer-button {
     font-size: 16px;
