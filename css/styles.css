@@ -582,10 +582,16 @@ padding-left: 102px;
     justify-content: center;
     background-color: rgba(46, 47, 66, 0.4);
     padding: 80px;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-open {
     opacity: 1;
     visibility: visible;
-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    pointer-events: auto;
 }
 
 .modal-heading {
