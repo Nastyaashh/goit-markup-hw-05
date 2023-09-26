@@ -646,8 +646,6 @@ background-color: var(--c-border-portfolio-color);
 border: 1px solid rgba(0, 0, 0, 0.1); 
 border-color: var(--c-border-portfolio-color);
 border-radius: 50%;
-stroke-width: 1px;
-stroke: rgba(0, 0, 0, 0.10);
 cursor: pointer;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
@@ -677,7 +675,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 .modal-button {
     display: block;
     margin: 0 auto;
-    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* 
@@ -793,7 +790,7 @@ line-height: 1.17;
     color: var(--c-border);
 }
 
-.modal-input-check:checked + .modal-privacy {
+.modal-input-check:checked + .label-privacy .modal-privacy {
     background-color: var(--c-brand);
     border: none;
     fill: var(--c-background);
