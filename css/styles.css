@@ -724,6 +724,11 @@ line-height: 1.17;
     margin-bottom: 8px;
 }
 
+.modal-field-comment {
+    margin-bottom: 16px;
+}
+
+
 .modal-textarea {
     height: 120px;
     font-size: 12px; 
@@ -769,7 +774,7 @@ line-height: 1.17;
     fill: transparent; 
 }
 
-.modal-checkbox {
+.modal-field-checkbox {
     margin-bottom: 24px;
 }
 

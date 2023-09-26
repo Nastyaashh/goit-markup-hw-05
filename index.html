@@ -428,19 +428,24 @@
             </div>
             </div>
         
-                <div class="modal-field">
+                <div class="modal-field-comment">
                 <label class="modal-label" for="user-comment">Comment</label>
                 <textarea class="modal-textarea" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
             </div>
 
-                <div class="modal-field">
-                    <div class="modal-checkbox">
-                        <input class="modal-input-check visually-hidden" id="user-privacy" type="checkbox" value="true" />
-                <label for="user-privacy" class="label-privacy">I accept the terms and conditions of the <span class="modal-privacy"><a class="policy-link" href="#">Privacy Policy</a></span>
+                <div class="modal-field-checkbox">
+                        <input class="modal-input-check visually-hidden" id="user-privacy" name="user-privacy" type="checkbox" value="true" />
+                <label for="user-privacy" class="label-privacy">I accept the terms and conditions of the <span class="modal-privacy">
+                    <svg class="tick-icon" width="10" height="8">
+                        <use href="./images/icons.svg#icon-tick"></use>
+                    </svg>
+                </span>
+                    <a class="policy-link" href="#">Privacy Policy</a>
+                
                 </label>
                 
             </div>
-            </div>
+            
         
         <button class="modal-button hero-button" type="submit">Send</button>
         </form>
