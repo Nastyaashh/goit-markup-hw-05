@@ -577,11 +577,11 @@ padding-left: 102px;
 .backdrop {
     position: fixed;
     inset: 0;
-    display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
-    padding: 80px;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -615,14 +615,11 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
     top: 50%;
     left: 50%;
     width: 408px;
-    max-width: 100%;
-    height: 100%;
     min-height: 584px;
     overflow-y: auto;
     background-color: var(--c-background-form);
     border-radius: 4px;
     padding: 72px 24px 24px;
-    margin: 80px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     transform: translate(-50%, -50%) scale(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
@@ -735,13 +732,13 @@ line-height: 1.17;
 
 
 .modal-textarea {
+    display: block;
     height: 120px;
     font-size: 12px; 
     line-height: 1.17;
     letter-spacing: 0.04em; 
     color: rgba(46, 47, 66, 0.4); 
     background-color: transparent;
-    margin-bottom: 8px;
     border: 1px solid var(--c-modal-border); 
     border-radius: 4px;
     width: 100%;
@@ -798,4 +795,5 @@ line-height: 1.17;
 
 .policy-link {
     color: var(--c-additional);
+    text-decoration: underline;
 }
